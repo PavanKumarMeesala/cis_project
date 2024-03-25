@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>CIS Project</title>
+        <script>
+            function display()
+            {
+                let name = document.getElementById("textfield").value
+                if(name.length == 0)
+                {
+                    alert("Enter your name")
+                }
+                else
+                {
+                    alert(name)
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        Enter your name: <input type="text" id="textfield" /> <br/>
+        <button onclick="display()">Display</button>
+    </body>
+</html>
